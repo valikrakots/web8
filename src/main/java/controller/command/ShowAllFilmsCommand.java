@@ -12,7 +12,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-public class ShowAllFilmsCommand extends command.Command {
+public class ShowAllFilmsCommand extends Command {
 
     final String urlPattern = "showAllFilmsCommand";
 

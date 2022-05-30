@@ -11,7 +11,7 @@ import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 import java.io.IOException;
 
-public class AuthorizationCommand extends command.Command {
+public class AuthorizationCommand extends Command {
 
     final String urlPattern = "authorization";
 

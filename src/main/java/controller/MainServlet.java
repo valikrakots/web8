@@ -18,7 +18,7 @@ import java.util.Map;
 public class MainServlet extends HttpServlet {
 
     private static final long serialVersionUID = 1L;
-    public Map<String, command.Command> commands;
+    public Map<String, Command> commands;
 
     public MainServlet() {
         super();
@@ -27,7 +27,7 @@ public class MainServlet extends HttpServlet {
 
     @Override
     public void init() {
-        command.Command[] commands = {
+        Command[] commands = {
             new MainCommand(),
             new ShowAllFilmsCommand(),
                 new ShowGoodFilmsCommand(),
@@ -40,7 +40,7 @@ public class MainServlet extends HttpServlet {
                 new ChatCommand(),
                 new GetFilmsIdCommand(),
         };
-        for (command.Command c : commands) {
+        for (Command c : commands) {
             this.commands.put(c.getPattern(), c);
         }
     }

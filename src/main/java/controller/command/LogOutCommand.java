@@ -8,7 +8,7 @@ import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 import java.io.IOException;
 
-public class LogOutCommand extends command.Command {
+public class LogOutCommand extends Command {
 
     final String urlPattern = "logOut";
 

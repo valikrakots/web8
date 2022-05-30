@@ -11,7 +11,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.util.List;
 
-public class ShowMenuCommand extends command.Command {
+public class ShowMenuCommand extends Command {
 
     final String urlPattern = "showMenu";
 

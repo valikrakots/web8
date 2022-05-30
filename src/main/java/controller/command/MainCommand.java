@@ -7,7 +7,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-public class MainCommand extends command.Command {
+public class MainCommand extends Command {
 
     final String urlPattern = "main";
 

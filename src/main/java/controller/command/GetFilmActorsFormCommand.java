@@ -13,7 +13,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-public class GetFilmActorsFormCommand extends command.Command {
+public class GetFilmActorsFormCommand extends Command {
 
     final String urlPattern = "getActorsOfFilm";
 

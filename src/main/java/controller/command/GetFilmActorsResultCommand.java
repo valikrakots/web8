@@ -15,7 +15,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-public class GetFilmActorsResultCommand extends command.Command {
+public class GetFilmActorsResultCommand extends Command {
 
     final String urlPattern = "getActorsOfFilmResult";
 

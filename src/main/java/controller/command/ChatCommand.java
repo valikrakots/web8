@@ -8,7 +8,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-public class ChatCommand extends command.Command {
+public class ChatCommand extends Command {
 
     final String urlPattern = "chat";
 

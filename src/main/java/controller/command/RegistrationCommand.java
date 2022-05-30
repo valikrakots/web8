@@ -12,7 +12,7 @@ import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 import java.io.IOException;
 
-public class RegistrationCommand extends command.Command {
+public class RegistrationCommand extends Command {
 
     final String urlPattern = "registration";
 

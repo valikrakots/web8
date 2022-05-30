@@ -12,7 +12,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.util.List;
 
-public class GetFilmsIdCommand extends command.Command {
+public class GetFilmsIdCommand extends Command {
 
     final String urlPattern = "getFilmsId";
 

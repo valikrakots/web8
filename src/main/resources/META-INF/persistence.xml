@@ -5,12 +5,6 @@
              version="2.1">
     <persistence-unit transaction-type="RESOURCE_LOCAL" name="default">
 
-        <class>Models.Actor</class>
-
-        <class>Models.Film</class>
-
-        <class>Models.Film_Actor_Relation</class>
-
 
         <properties
                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/persistence">
@@ -22,8 +16,7 @@
             <property name="javax.persistence.jdbc.user" value="rzdja73fx3xy37n1"/>
 
             <property name="javax.persistence.jdbc.password" value="f313xs6jhynexnue"/>
-
-            <property name="javax.persistence.jdbc.driver" value="com.mysql.cj.jdbc.Driver"/>
+            
 
 
         </properties>

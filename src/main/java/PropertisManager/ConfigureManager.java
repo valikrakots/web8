@@ -31,9 +31,9 @@ public class ConfigureManager {
 
         // Получаем неободимую информацию для подключения из property-файла
         driver = "com.mysql.cj.jdbc.Driver";
-        DB_URL = "jdbc:mysql://localhost:3306/web_programming";
-        user = "root";
-        password = "valik";
+        DB_URL = "mysql://rzdja73fx3xy37n1:f313xs6jhynexnue@ilzyz0heng1bygi8.chr7pe7iynqr.eu-west-1.rds.amazonaws.com:3306/up49pdigfoxz5fqo";
+        user = "rzdja73fx3xy37n1";
+        password = "f313xs6jhynexnue";
     }
 
 }
